@@ -7,5 +7,6 @@ namespace BestBuyBestPractices
     public interface IDepartmentRepository
     {
         IEnumerable<Department> GetAllDepartments(); //Stubbed out method
+        void CreateDepartment(string Name);
     }
 }
